@@ -176,3 +176,4 @@ Element (VariableElementImpl): lblUser
 17:07:25.375 [Worker-34] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.juliocnsouza.twitterconnect.activity.PostActivity_
 17:07:25.444 [Worker-34] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 115 ms], [Generate Sources = 70 ms], [Find R Classes = 17 ms], [Process Annotations = 10 ms], [Extract Annotations = 9 ms], [Validate Annotations = 6 ms], [Extract Manifest = 2 ms], 
 17:07:25.444 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+17:13:03.322 [Worker-32] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {phase=BUILD}
