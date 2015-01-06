@@ -142,3 +142,37 @@ Element (VariableElementImpl): lblUser
 23:31:30.630 [Worker-6] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.juliocnsouza.twitterconnect.activity.PostActivity_
 23:31:30.664 [Worker-6] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 74 ms], [Generate Sources = 35 ms], [Find R Classes = 13 ms], [Extract Annotations = 10 ms], [Validate Annotations = 6 ms], [Process Annotations = 6 ms], [Extract Manifest = 2 ms], 
 23:31:30.665 [Worker-6] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
+17:07:25.267 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:84 - Initialize AndroidAnnotations 3.1 with options {phase=BUILD}
+17:07:25.329 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:108 - Start processing for 9 annotations on 2 elements
+17:07:25.338 [Worker-34] DEBUG o.a.h.AndroidManifestFinder:137 - AndroidManifest.xml file found in parent folder /home/juliocnsouza/Projects/AndroidAnnotationsLab/AndroidAnnotationsLab/app: /home/juliocnsouza/Projects/AndroidAnnotationsLab/AndroidAnnotationsLab/app/AndroidManifest.xml
+17:07:25.340 [Worker-34] WARN  o.a.h.AndroidManifestFinder:252 - A class activity declared in the AndroidManifest.xml cannot be found in the compile path: [.PostActivity]
+17:07:25.340 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:171 - AndroidManifest.xml found: AndroidManifest [applicationPackage=br.com.juliocnsouza.twitterconnect, componentQualifiedNames=[], permissionQualifiedNames=[], applicationClassName=null, libraryProject=false, debugabble=false, minSdkVersion=8, maxSdkVersion=-1, targetSdkVersion=21]
+17:07:25.340 [Worker-34] INFO  o.a.r.ProjectRClassFinder:50 - Found project R class: br.com.juliocnsouza.twitterconnect.R
+17:07:25.345 [Worker-34] INFO  o.a.r.AndroidRClassFinder:44 - Found Android class: android.R
+17:07:25.358 [Worker-34] INFO  o.a.p.ModelValidator:42 - Validating elements
+17:07:25.358 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with EActivityHandler: [br.com.juliocnsouza.twitterconnect.activity.PostActivity]
+17:07:25.359 [Worker-34] WARN  o.a.h.AnnotationHelper:127 - The component PostActivity_ is not registered in the AndroidManifest.xml file.
+17:07:25.359 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with ViewByIdHandler: [lblUser, lblCharCounter, btnSendMessage, txtTweet]
+17:07:25.361 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with ClickHandler: [public void onClickBtnSendMessage() ]
+17:07:25.361 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsMenuHandler: [br.com.juliocnsouza.twitterconnect.activity.PostActivity]
+17:07:25.362 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with OptionsItemHandler: [boolean menuItemAbout() , boolean menuItemSettings() ]
+17:07:25.363 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with AfterTextChangeHandler: [public void updateCharCounter() ]
+17:07:25.363 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with AfterViewsHandler: [void configureUser() , void configureCharCounter() ]
+17:07:25.364 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with UiThreadHandler: [void displayResult(java.lang.String) ]
+17:07:25.364 [Worker-34] DEBUG o.a.p.ModelValidator:62 - Validating with BackgroundHandler: [void startPostOnTwitter() ]
+17:07:25.365 [Worker-34] INFO  o.a.p.ModelProcessor:69 - Processing root elements
+17:07:25.365 [Worker-34] DEBUG o.a.p.ModelProcessor:160 - Processing root elements EActivityHandler: [br.com.juliocnsouza.twitterconnect.activity.PostActivity]
+17:07:25.368 [Worker-34] INFO  o.a.p.ModelProcessor:77 - Processing enclosed elements
+17:07:25.368 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with ViewByIdHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@4bb8ad89, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@3c797bf3, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@4aa8394a, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@49892435]
+17:07:25.370 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with ClickHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@1c67a232]
+17:07:25.371 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with OptionsMenuHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@29c97a]
+17:07:25.371 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with OptionsItemHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@471c719f, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@6caec937]
+17:07:25.372 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with AfterTextChangeHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7c06908c]
+17:07:25.372 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with AfterViewsHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@2afdcef9, org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@376a68ab]
+17:07:25.373 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with UiThreadHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@7d1f537b]
+17:07:25.373 [Worker-34] DEBUG o.a.p.ModelProcessor:89 - Processing enclosed elements with BackgroundHandler: [org.androidannotations.model.AnnotationElements$AnnotatedAndRootElements@71d783af]
+17:07:25.374 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:250 - Number of files generated by AndroidAnnotations: 1
+17:07:25.374 [Worker-34] INFO  o.a.g.ApiCodeGenerator:52 - Writting following API classes in project: []
+17:07:25.375 [Worker-34] DEBUG o.a.g.SourceCodewriter:55 - Generating class: br.com.juliocnsouza.twitterconnect.activity.PostActivity_
+17:07:25.444 [Worker-34] INFO  o.a.p.TimeStats:81 - Time measurements: [Whole Processing = 115 ms], [Generate Sources = 70 ms], [Find R Classes = 17 ms], [Process Annotations = 10 ms], [Extract Annotations = 9 ms], [Validate Annotations = 6 ms], [Extract Manifest = 2 ms], 
+17:07:25.444 [Worker-34] INFO  o.a.AndroidAnnotationProcessor:122 - Finish processing
