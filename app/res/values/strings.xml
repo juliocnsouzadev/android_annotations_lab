@@ -1,5 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
 
     <string name="app_name">TwitterConnect</string>
+    <string name="title_activity_post">PostActivity</string>
+    <string name="action_settings">Configurações</string>
+    <string name="action_about">Sobre</string>
+    <string name="hintTxStatus">Publique um novo Tweet...</string>
+    <string name="updateButton">Tweetar</string>
+    <string name="statusCharLength">140</string>
+    <string name="messageSent">Seu Tweet foi publicado!</string>
+    <string name="messageFailure">Ocorreu um erro ao enviar seu Tweet. Tente novamente.</string>
 
 </resources>
